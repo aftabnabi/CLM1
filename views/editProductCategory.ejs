@@ -1,0 +1,62 @@
+﻿<% include layout %>
+<% include title %>
+
+<div class="panel-body"
+	data-ng-cloak
+	data-ng-app = "productCategoryModule"
+	data-ng-controller = "editProductCategoryController"
+><!-- container-->
+
+<% include ErrorValidation %>
+<% include Message %>
+
+	<form name="formProductCategory" class="navbar-form navbar-left" method="POST">
+	
+		<div class="form-group " >
+			
+			<label for="categoryName" > Category Name</label>
+			
+			<input class="form-control" type="text" placeholder="please enter product category name" 
+			data-ng-model="productCategory.categoryName"
+			id="categoryName"
+			name="categoryName" 
+			
+			required 
+			
+			/>
+	
+		</div>
+	<br/>
+		<div class="form-group ">
+
+			<label for="categoryDetails">Category Details</label>
+		
+			<textarea data-ng-model="productCategory.categoryDetails"
+			col="30"
+			rows="5"
+			name="categoryDetails"
+			id="categoryDetails"
+			placeholder="Please enter product category details"
+			class="form-control"
+			required
+
+
+			></textarea>
+		</div>
+	<br/>
+		<div class="form-group">
+			<button class="btn btn-primary" type="button" data-ng-click="updateProductCategory(productCategory)">Update Product Category</button>
+			<span class="info"></span>
+			<button class="btn btn-primary" type="button" data-ng-click="viewProductCategory()">View Product Category</button>
+		</div>
+	</form>
+</div><!--end container-->
+    
+    <script src="../bower_components/angular/angular.min.js"></script>
+	
+	<script src="../../javascripts/app/productCategory/productCategoryModule.js"></script>
+<script src="../../javascripts/app/requiredValidationService.js"></script>
+	<script src="../../javascripts/app/productCategory/productCategoryService.js"></script>
+<script src="../../javascripts/app/productCategory/editProductCategoryController.js"></script>
+    </body>
+	</html>

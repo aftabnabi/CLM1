@@ -1,0 +1,19 @@
+{
+  "name": "clm1",
+  "version": "0.0.0",
+  "description": "CLM1",
+  "main": "app.js",
+  "author": {
+    "name": "Aftab",
+    "email": ""
+  },
+  "dependencies": {
+    "angular": "^1.5.5",
+    "ejs": "^2.4.2",
+    "express": "3.4.4",
+    "jade": "*",
+    "mysql": "^2.10.2",
+    "stylus": "*",
+    "util-inspect": "^0.1.8"
+  }
+}
