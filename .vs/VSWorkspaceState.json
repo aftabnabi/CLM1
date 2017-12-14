@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\public",
+    "\\public\\javascripts",
+    "\\public\\javascripts\\app",
+    "\\public\\javascripts\\app\\productCategory",
+    "\\routes",
+    "\\Server",
+    "\\Server\\productCategoryDao",
+    "\\views"
+  ],
+  "SelectedNode": "\\Server\\mssqlConnectionStringProvider.js",
+  "PreviewInSolutionExplorer": false
+}
