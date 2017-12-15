@@ -1,20 +1,45 @@
 {
-  "name": "clm1",
-  "version": "0.0.0",
+  "name": "clm",
+  "version": "0.0.1",
   "description": "CLM1",
   "main": "app.js",
-  "author": {
-    "name": "Aftab",
-    "email": ""
-  },
+  "author": "Aftab",
   "dependencies": {
-    "angular": "^1.5.5",
-    "ejs": "^2.4.2",
-    "express": "3.4.4",
+    "angular": "^1.6.7",
+    "body-parser": "^1.0.2",
+    "bower": "^1.8.2",
+    "compression": "^1.7.1",
+    "ejs": "^2.5.7",
+    "express": "4.16.2",
+    "favicon": "0.0.2",
     "jade": "*",
+    "logger": "0.0.1",
+    "method-override": "~2.0.2",
+    "morgan": "^1.2.3",
     "mssql": "^4.1.0",
-    "mysql": "^2.10.2",
+    "mysql": "^2.15.0",
     "stylus": "*",
     "util-inspect": "^0.1.8"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aftabnabi/CLM1.git"
+  },
+  "keywords": [
+    "angularjs",
+    "node",
+    "mssql",
+    "mysql",
+    "seed",
+    "project"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aftabnabi/CLM1/issues"
+  },
+  "homepage": "https://github.com/aftabnabi/CLM1#readme"
 }
